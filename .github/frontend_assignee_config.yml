@@ -1,0 +1,13 @@
+assignee:
+  isSelf: true
+
+reviewer:
+  list:
+    - orchestrator-fe
+  count: 3
+  isTeamList: true
+  useTeamMembers: true
+
+labels:
+  include:
+    - "FE"

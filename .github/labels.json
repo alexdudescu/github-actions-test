@@ -1,0 +1,28 @@
+{
+    "labels": {
+        "frontend": {
+            "name": "FE",
+            "colour": "#246196",
+            "description": "Front-End Team"
+        }
+    },
+    "pr": {
+        "frontend": {
+            "requires": 1,
+            "conditions": [
+                {
+                    "type": "filesMatch",
+                    "glob": "**/Client/app/**/*.ts"
+                },
+                {
+                    "type": "filesMatch",
+                    "glob": ".github/**/*frontend*"
+                },
+                {
+                    "type": "filesMatch",
+                    "glob": ".github/auto-label.json"
+                }
+            ]
+        }
+    }
+}
